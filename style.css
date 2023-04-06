@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding:10px 15px;
+    font-weight: 500;
+}
+
+section h3{
+    color: rgb(58, 57, 57);
+    text-transform: capitalize;
+    text-align: center;
+    padding:6px 0;
+}
+.container {
+    background-image: url("home-page.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project {
+    background-image: url("project-page.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.achivment {
+    background-image: url("achiv.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pera p {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    text-align: justify;
+    font-size: 1.2rem;
+    background-color: #b3b3b3;
+}
+
+.pera-footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #b3b3b3;
+    padding-top:30px;
+}
+
+.pera-footer i.bx{
+    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.5);
+    margin:0px 20px;
+}
