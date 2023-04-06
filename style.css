@@ -65,6 +65,7 @@ section h3{
     text-align: justify;
     font-size: 1.2rem;
     background-color: #b3b3b3;
+    overflow: hidden;
 }
 
 .pera-footer{
